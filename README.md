@@ -16,15 +16,15 @@ Es una plataforma online de desarrollo de software que se usa para almacenar, su
 
 Conceptos básicos de programación
 
-Software: Conjunto de códigos de sistema operativo. Esta compuesto por aplicaciones y programas  para hacer que los dispositivos electronicos funcionen.
-Librería: Herramientas que permiten que el desarrollo de software sea mas eficiente. Proporcionan fragmento de código reutilizables.
+- Software: Conjunto de códigos de sistema operativo. Esta compuesto por aplicaciones y programas  para hacer que los dispositivos electronicos funcionen.
+- Librería: Herramientas que permiten que el desarrollo de software sea mas eficiente. Proporcionan fragmento de código reutilizables.
 Codigo ya escrito que se puede reutilizar para agilizar la tarea de un programador
-Aplicación: Programa informático diseñado como herramienta para facilitar tareas complejas. Se usa para realizar operaciones o funciones epecíficas para el beneficio y necesidad del usuario.
-Api (Application Programming Interfaces): Intermediario entre dos aplicaciones de software que permite su comunicación y que pida datos o acciones epecíficas. (cuando se conecta un juego a la sesión de face) (Usados en aplicaciones para subir a la nube)
-Stock: Conjunto o cantidad de productos que tiene almacenado una empresa.
-Endpoint: Punto final de comunicación. Dirección de una API o backend que se encarga de dar respuesta a una petición. Dispositivo en el que se usa una aplicación o software. Celular blablabla.
+- Aplicación: Programa informático diseñado como herramienta para facilitar tareas complejas. Se usa para realizar operaciones o funciones epecíficas para el beneficio y necesidad del usuario.
+- Api (Application Programming Interfaces): Intermediario entre dos aplicaciones de software que permite su comunicación y que pida datos o acciones epecíficas. (cuando se conecta un juego a la sesión de face) (Usados en aplicaciones para subir a la nube)
+- Stock: Conjunto o cantidad de productos que tiene almacenado una empresa.
+- Endpoint: Punto final de comunicación. Dirección de una API o backend que se encarga de dar respuesta a una petición. Dispositivo en el que se usa una aplicación o software. Celular blablabla.
 Entrada de activos y aplicaciones de una empresa, y representa vulnerabilidad de ciberseguridad.
-Framework: Marco de trabajo que sirve como base para desarrollar un proyecto con objetivos específicos.
+- Framework: Marco de trabajo que sirve como base para desarrollar un proyecto con objetivos específicos.
 
 JAVA
 
@@ -32,26 +32,26 @@ Es un lenguaje de programación enfocada a objetos, que permite desarrollar dist
 
 Conceptos básicos:
 
-Clase = Es un plano, se le llama abstacción o también puede ser un tipo de dato abstacto.
-Objeto = variable, espacio de almacenamiento, realización de una clase, instanciación
-Función = Es un verbo y también se le denomina método. Se crea con base en el tipo de retorno, nombre, las entradas y el cuerpo de la misma.
-Valor = Adjetivo, lo que se le asigna a un objeto o a una propiedad
-Propiedades: es lo que tiene un objeto, sus características. Pueden ser tanto públicas como privadas y se crean junto con su tipo de retorno, este depende si es un número entero o decimal, si es un boolean o si es una cadena de texto.
+- Clase = Es un plano, se le llama abstacción o también puede ser un tipo de dato abstacto.
+- Objeto = variable, espacio de almacenamiento, realización de una clase, instanciación
+- Función = Es un verbo y también se le denomina método. Se crea con base en el tipo de retorno, nombre, las entradas y el cuerpo de la misma.
+- Valor = Adjetivo, lo que se le asigna a un objeto o a una propiedad
+- Propiedades: es lo que tiene un objeto, sus características. Pueden ser tanto públicas como privadas y se crean junto con su tipo de retorno, este depende si es un número entero o decimal, si es un boolean o si es una cadena de texto.
 
 Tipos de datos primitivos:
-Números enteros: byte, short, int, long. -> Depende de que tan extenso sea el número. y el espacio de memoria que ocupe.
-Números decimales: float, double. 
-Carácter simple: char
-Valor true false: boolean.
+- Números enteros: byte, short, int, long. -> Depende de que tan extenso sea el número. y el espacio de memoria que ocupe.
+- Números decimales: float, double. 
+- Carácter simple: char
+- Valor true false: boolean.
 
 Álgebra de boole: Es una estructura algebráica que esquematiza operaciones lógicas. Funciona a través de valores como verdadero y falso denotados por los números 1 y 0, además usa los operadores lógicos como la conjunción (y) denotada como ∧, la disyunción (o) denotada como v y la negación (no) denotada como ¬. En java ∧ = &&, v = || y ¬ = !
 
 Pilares de la programación:
 
-Abstraccion : Es la capacidad de simplificar las caracteristicas y funcionalidades de objetos del mundo real y describirlas en clases con nombres, propiedades y funciones.
-Encapsulamiento: Es la capacidad de ocultar o privatizar propiedades de un objeto por temas de seguridad, con el cual se puede representar su valor según su necesidad a traves de una funcionalidad.
-Herencia: Es el mecanismo en el cual se extienden las caracteristicas y funcionalidades de una clase madre a su clase hija.
-Polimorfismo: Es la capacidad de enviar mensajes iguales para objetos distintos y del cual se recibe una respuesta distinta. El objeto de la clase madre puede almacenar un objeto de las clases hija.
+- Abstraccion : Es la capacidad de simplificar las caracteristicas y funcionalidades de objetos del mundo real y describirlas en clases con nombres, propiedades y funciones.
+- Encapsulamiento: Es la capacidad de ocultar o privatizar propiedades de un objeto por temas de seguridad, con el cual se puede representar su valor según su necesidad a traves de una funcionalidad.
+- Herencia: Es el mecanismo en el cual se extienden las caracteristicas y funcionalidades de una clase madre a su clase hija.
+- Polimorfismo: Es la capacidad de enviar mensajes iguales para objetos distintos y del cual se recibe una respuesta distinta. El objeto de la clase madre puede almacenar un objeto de las clases hija.
 
 Condicionales:
 
