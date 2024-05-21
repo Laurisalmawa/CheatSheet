@@ -1,37 +1,20 @@
+Aprendizaje en programación:
 
+Git:
 
-Preguntas:
+Es un software de versionameinto que permite el desarrollo y mantenimiento de aplicaciones. Guarda el registro de los cambios que sufra un archivo. Se puede usar tanto de manera individual como en equipo. Los archivos se guardaran en un repositorio, mismo que almacena virtualmente el proyecto.  Para guardar los cambios que se realizan en un proyecto se usan distitnos comandos como git add, el cual permite subir el archivo al area de preparación y git commit para guardar la última versión. 
 
-Que significa git: Git es un software que permite guardar versiones de archivos. Durante las etapas del proyecto
-control de versiones
-guarda todo el registro de cambios que sufran los archivos
-versionamiento 
+El uso de git permite la creación de distitnas ramas para crear distintas versiones de un mismo archivo y unificarlas en su debido momento. Para ello, se emplean los comandos git merge que se usa para fusionar las ramas respetando la historia de la segunda rama, se usa git rebase para fusionar las ramas ubicando los commits de la segunda rama posteriores a los de la primera, y finalmente, git cherry-pick se usa para escoger el commit de una rama y aplicarlo en otra.
 
-Como y donde se instala git: Ya que el computador tiene ubuntu se puede instalar desde la consola con el comando “sudo apt install”. En windows es la consola git bash.
+En caso de obtener archivos que necesitamos ocultar o “ignorar” empleamos un archivo gitignore en el cual ingresamos cada uno de los archivos que no necesitamos mostrar o que ocupen un espacio en la memoria.
 
-Que es un repositorio: Lugar en el que se guardan archivos. Almacenamiento virtual del proyecto.
+GitHub: 
 
-Que es una rama (como si fuera un nino) : Es una version del archivo sobre el que se esta trabajando. Linea de tiempo. Ej: Cuando uno hacia una cartelera en el colegio y no la terminaba y se tenia que continuar individual. (multiverso marvel)
-(master el nombre de rama original).
+Es una plataforma online de desarrollo de software que se usa para almacenar, supervisar y trabajar con proyectos de software. Permite trabajar de manera colaborativa en proyectos de código abierto. Dichos archivos se pueden subir a un repositorio remoto desde un repositorio local con el comando git push, de la misma manera los repositorios se pueden obtener con el comando git pull. Para especificar las versiones del proyecto se usa git tag. Sin embargo, para realizar este proceso, incialmente se debe crear una cuenta en GitHub, poserior a eso se debe crear desde el computador una llave SSH (Secure Shell), dicha llave es una seguridad extra que nos permitirá subir los archivos de manera confiable, de esa manera se podrá crear un repositorio en GitHub y subir los archivos de local a remoto.
 
-Diferencia entre add y commit: 
-Add se usa para subirlo al stage, en el area de preparacion pero no se guarda aun la version del archivo.
-Commit se usa para guardar la ultima version del archivo. Se necesita la preparacion del archivo en caso de que no este completo y se quiera anadir informacion.
+---------------------------------------------------------------------------------------------------------------
 
-
-Merch: Fusiona las ramas respetando la historia de la segunda rama
-Rebase: Fusiona las ramas sin respetar la segunda rama ubicando los commits de esta posteriores a los commits de la primera rama.
-
-que es cherry-pick: Poder escoger el commit de una rama y aplicarla en otra.
-
-Push: Enviar el repositorio a github
-Pull: Extraer el repositorio remoto a local
-tags: Permiten especificar versiones del proyecto
-
-
-que es codigo bash: procesador de comandos que causan acciones (una consola)
-
-Ejemplo con una papeleria
+Conceptos básicos de programación
 
 Software: Conjunto de códigos de sistema operativo. Esta compuesto por aplicaciones y programas  para hacer que los dispositivos electronicos funcionen.
 Librería: Herramientas que permiten que el desarrollo de software sea mas eficiente. Proporcionan fragmento de código reutilizables.
@@ -42,18 +25,25 @@ Stock: Conjunto o cantidad de productos que tiene almacenado una empresa.
 Endpoint: Punto final de comunicación. Dirección de una API o backend que se encarga de dar respuesta a una petición. Dispositivo en el que se usa una aplicación o software. Celular blablabla.
 Entrada de activos y aplicaciones de una empresa, y representa vulnerabilidad de ciberseguridad.
 Framework: Marco de trabajo que sirve como base para desarrollar un proyecto con objetivos específicos.
-Back-end: Infraestructura que hace que una aplicación funcione
-Front-end: Desarrollo de la interfaz de usuario.
 
-Subir archivos de local a remoto:
-ssh-keygen -t rsa -b 4096 -C "laurisalmawa05@gmail.com" 
-ssh-keygen para elegir la ubicación: usualmente es ~/.ssh/id_rsa
-secure shell
-eval "$(ssh-agent -s)" : para saber que el programa ya esta activo en la carpeta.
+JAVA
+
+Es un lenguaje de programación enfocada a objetos, que permite desarrollar distintos servicios y aplicaciones. Cuenta con distintos elementos como JVM (Java Virtual Machine), en el cual se encuentra todo lo necesario para correr las aplicaciones escritas en java. También cuenta con el JRE (Java Runtime Enviroment) que permite correr el código bytecode de java en los distintos sistemas operativos, este elemento contiene dentro de sí el JVM. Por último, cuenta con JDK (Java Development Kit) el cual, permite desarrollar java y convierte el código fuente en bytecode, también contiene JRE. 
+
+Conceptos básicos:
+
+Clase = Es un plano, se le llama abstacción o también puede ser un tipo de dato abstacto.
+Objeto = variable, espacio de almacenamiento, realización de una clase, instanciación
+Función = Verbo, método.
+Valor = Adjetivo
+Propiedades: es lo que tiene un objeto
+Herencia: lo que es un objeto de un padre. Generalizacion
+Metodos: es lo que hace un objeto.
 
 
-Lenguaje tecnico git. Comandos linux
-jobs 
-Pipeline: Serie de trabajos para un onjetivo
-gitlab: Paquete e software devops que puede desarrollar,asegurar y operar un software (github= velocidad, gitlab, fiabilidad)
-wok
+Pilares de la programación:
+
+- Abstraccion : Es la capacidad de simplificar las caracteristicas y funcionalidades de objetos del mundo real y describirlas en clases con nombres, propiedades y funciones.
+- Encapsulamiento: Es la capacidad de ocultar o privatizar propiedades de un objeto por temas de seguridad, con el cual se puede representar su valor según su necesidad a traves de una funcionalidad.
+- Herencia: Es el mecanismo en el cual se extienden las caracteristicas y funcionalidades de una clase madre a su clase hija.
+- Polimorfismo: Es la capacidad de enviar mensajes iguales para objetos distintos y del cual se recibe una respuesta distinta. El objeto de la clase madre puede almacenar un objeto de las clases hija.
