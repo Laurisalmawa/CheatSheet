@@ -32,13 +32,13 @@ Es un lenguaje de programación enfocada a objetos, que permite desarrollar dist
 
 Conceptos básicos:
 
-Clase = Es un plano, se le llama abstacción o también puede ser un tipo de dato abstacto.
-Objeto = variable, espacio de almacenamiento, realización de una clase, instanciación
-Función = Verbo, método.
-Valor = Adjetivo
-Propiedades: es lo que tiene un objeto
-Herencia: lo que es un objeto de un padre. Generalizacion
-Metodos: es lo que hace un objeto.
+- Clase = Es un plano, se le llama abstacción o también puede ser un tipo de dato abstacto.
+- Objeto = variable, espacio de almacenamiento, realización de una clase, instanciación
+- Función = Verbo, método.
+- Valor = Adjetivo
+- Propiedades: es lo que tiene un objeto
+- Herencia: lo que es un objeto de un padre. Generalizacion
+- Metodos: es lo que hace un objeto.
 
 
 Pilares de la programación:
