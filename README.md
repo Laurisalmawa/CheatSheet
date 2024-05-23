@@ -8,7 +8,7 @@ El uso de git permite la creación de distitnas ramas para crear distintas versi
 
 En caso de obtener archivos que necesitamos ocultar o “ignorar” empleamos un archivo gitignore en el cual ingresamos cada uno de los archivos que no necesitamos mostrar o que ocupen un espacio en la memoria.
 
-##GitHub: 
+## GitHub: 
 
 Es una plataforma online de desarrollo de software que se usa para almacenar, supervisar y trabajar con proyectos de software. Permite trabajar de manera colaborativa en proyectos de código abierto. Dichos archivos se pueden subir a un repositorio remoto desde un repositorio local con el comando git push, de la misma manera los repositorios se pueden obtener con el comando git pull. Para especificar las versiones del proyecto se usa git tag. Sin embargo, para realizar este proceso, incialmente se debe crear una cuenta en GitHub, poserior a eso se debe crear desde el computador una llave SSH (Secure Shell), dicha llave es una seguridad extra que nos permitirá subir los archivos de manera confiable, de esa manera se podrá crear un repositorio en GitHub y subir los archivos de local a remoto.
 
@@ -26,7 +26,7 @@ Codigo ya escrito que se puede reutilizar para agilizar la tarea de un programad
 Entrada de activos y aplicaciones de una empresa, y representa vulnerabilidad de ciberseguridad.
 - Framework: Marco de trabajo que sirve como base para desarrollar un proyecto con objetivos específicos.
 
-#JAVA
+# JAVA
 
 Es un lenguaje de programación enfocada a objetos, que permite desarrollar distintos servicios y aplicaciones. Cuenta con distintos elementos como JVM (Java Virtual Machine), en el cual se encuentra todo lo necesario para correr las aplicaciones escritas en java. También cuenta con el JRE (Java Runtime Enviroment) que permite correr el código bytecode de java en los distintos sistemas operativos, este elemento contiene dentro de sí el JVM. Por último, cuenta con JDK (Java Development Kit) el cual, permite desarrollar java y convierte el código fuente en bytecode, también contiene JRE. 
 
@@ -38,7 +38,7 @@ Es un lenguaje de programación enfocada a objetos, que permite desarrollar dist
 - Valor = Adjetivo, lo que se le asigna a un objeto o a una propiedad
 - Propiedades: es lo que tiene un objeto, sus características. Pueden ser tanto públicas como privadas y se crean junto con su tipo de retorno, este depende si es un número entero o decimal, si es un boolean o si es una cadena de texto.
 
-##Tipos de datos primitivos:
+## Tipos de datos primitivos:
 - Números enteros: byte, short, int, long. -> Depende de que tan extenso sea el número. y el espacio de memoria que ocupe.
 - Números decimales: float, double. 
 - Carácter simple: char
@@ -56,6 +56,7 @@ Es un lenguaje de programación enfocada a objetos, que permite desarrollar dist
 ## Condicionales:
 
 Son estructuras que permiten elegir entre la ejecución de una acción u otra. Se elige a partir de una condición como bien lo dice su nombre, algunas estructuras de control de flujo son: if, else y switch.
-Ciclos:
+
+## Ciclos:
 
 Son una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse, se usa como una estructura de control. Los ciclos en java son while, do-while y for.
